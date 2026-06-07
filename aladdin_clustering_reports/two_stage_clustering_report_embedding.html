@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Two-Stage Clustering Report (embedding)</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #182033;
+  --muted: #5d667a;
+  --line: #d9dee8;
+  --soft: #f5f7fb;
+  --accent: #2457a6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  color: var(--ink);
+  background: #ffffff;
+  line-height: 1.55;
+}
+main {
+  width: min(1040px, calc(100% - 48px));
+  margin: 40px auto 64px;
+}
+h1 {
+  margin: 0 0 20px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+h2 {
+  margin: 32px 0 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 22px;
+}
+h3 {
+  margin: 24px 0 8px;
+  font-size: 18px;
+}
+p { margin: 10px 0; }
+ul { padding-left: 24px; }
+li { margin: 6px 0; }
+code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: var(--soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.94em;
+}
+a { color: var(--accent); }
+.report-nav {
+  margin-bottom: 28px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+.report-nav a {
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 4px;
+}
+.meta {
+  color: var(--muted);
+  font-size: 14px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+figure {
+  margin: 22px 0 30px;
+}
+figcaption {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 8px;
+}
+</style>
+</head>
+<body>
+  <main>
+    
+<nav class="report-nav">
+  <a href="two_stage_clustering_report_tfidf_engineered_features.html">TF-IDF + engineered features</a>
+  <a href="two_stage_clustering_report_embedding.html">Embedding</a>
+  <a href="two_stage_clustering_report_five_coding_dimensions.html">Five coding dimensions</a>
+  <a href="index.html">Index</a>
+</nav>
+
+    <h1>Two-Stage Clustering Report (embedding)</h1>
+<p>Stage 1 clusters students by standardized pre score, post score, and grade change.</p>
+<p>Stage 2 clusters dense prompt embeddings from the concatenated <code>iteration_X_prompt</code> text within each Stage 1 score cluster.</p>
+<p>Prompt embedding method: local TF-IDF with unigrams/bigrams, reduced into dense latent semantic vectors using TruncatedSVD, plus prompt-behavior features such as prompt count, average length, total iterations, and thematic keyword counts.</p>
+<p>Project rows: 75</p>
+<p>Assessment rows: 130</p>
+<p>Accepted project-to-assessment matches: 73</p>
+<p>Clusterable rows with match, pre+post scores, and prompts: 48</p>
+<p>Unmatched project rows: 2</p>
+<p>Matched project rows without both pre/post: 21</p>
+<p>Stage 1 selected k: 3 with silhouette 0.441</p>
+<h2>Stage 2 Prompt Models</h2>
+<ul>
+<li>S1: selected k=2, silhouette=0.346, vocabulary preview=100, 100 solar, 100 wind, 16m, 16m generate, 16m make, 73, 73 generate, add, add 100, add battery, add both, add castle, add electric, add fans</li>
+<li>S2: selected k=2, silhouette=0.45, vocabulary preview=13, 14, 16, 18, 20, 20 cooling, 24, 25, 25 ac, 335, 335 blk, 73d8ff, 73d8ff heating, ac, ac coefficient</li>
+<li>S3: selected k=1, silhouette=-1.0, vocabulary preview=10, 10 solar, 10m, 10m height, 12, 12 width, 20, 20 cooling, 22, 22 length, 25, 25 ac, 335, 335 blk, 454769</li>
+</ul>
+<h2>Cluster Summary</h2>
+<ul>
+<li>S1_P1: n=15, avg pre=3.93, avg post=3.8, avg change=-0.13; terms=style; colonial; generate; make; solar; panels; roof; big</li>
+<li>S1_P2: n=4, avg pre=3.75, avg post=3.5, avg change=-0.25; terms=add; solar; generate; colonial; style; panels; make; roof</li>
+<li>S2_P1: n=15, avg pre=9.0, avg post=10.07, avg change=1.07; terms=style; colonial; solar; generate; roof; panels; insulation; windows</li>
+<li>S2_P2: n=3, avg pre=8.0, avg post=10.33, avg change=2.33; terms=add; heat; solar; value; panels; room; living; make</li>
+<li>S3_P1: n=11, avg pre=4.09, avg post=10.18, avg change=6.09; terms=generate; solar; add; colonial; style; value; m2c; panels</li>
+</ul>
+<h2>Interpretation</h2>
+<p>The embedding version keeps the same Stage 1 score trajectories as the original analysis:</p>
+<ul>
+<li>S1: low pre/post performance with little or no growth</li>
+<li>S2: high pre/post performance with modest growth</li>
+<li>S3: lower pre performance followed by strong post-test gains</li>
+</ul>
+<p>The embedding method changes the Stage 2 prompt grouping. Instead of splitting students mainly by exact keywords, it groups students by denser latent prompt patterns, while still including prompt-count and iteration features.</p>
+<p>S1_P1: Low-growth, shorter/general design prompts</p>
+<p>This group includes 15 students with average pre 3.93, post 3.80, and change -0.13. Their prompts are generally about style, colonial design, solar panels, roofs, and making/generating objects. They averaged 3.33 prompts. Interpretation: these students used some design iteration, but their prompt behavior appears broad and feature-oriented, and it did not translate into assessment growth.</p>
+<p>S1_P2: Low-growth, high-iteration feature adders</p>
+<p>This group includes 4 students with average pre 3.75, post 3.50, and change -0.25. They averaged 12 prompts, much higher than S1_P1, and their terms emphasize adding solar, panels, roofs, and style features. Interpretation: this is an important contrast group. More iterations did not correspond to higher learning gains; these students iterated a lot, but mostly through repeated feature additions.</p>
+<p>S2_P1: High-performing, moderate-iteration design/energy students</p>
+<p>This group includes 15 students with average pre 9.00, post 10.07, and change +1.07. They averaged 6.33 prompts and used language around style, colonial design, solar, roofs, panels, insulation, and windows. Interpretation: these students entered with stronger knowledge and showed modest growth while using a balanced mix of aesthetic and energy-related prompts.</p>
+<p>S2_P2: High-performing, high-iteration technical expanders</p>
+<p>This group includes 3 students with average pre 8.00, post 10.33, and change +2.33. They averaged 14.67 prompts and used terms such as add, heat, solar, value, panels, room, and living. Interpretation: this small subgroup suggests that among already-strong students, heavier iteration may be associated with more design expansion and slightly larger gains.</p>
+<p>S3_P1: Strong-growth students</p>
+<p>This group includes 11 students with average pre 4.09, post 10.18, and change +6.09. They averaged 3 prompts, and their prompt terms include generate, solar, add, colonial style, value, m2c, and panels. Interpretation: these students improved substantially despite relatively few prompts. Their gains may be connected to prompt quality, classroom learning, or conceptual engagement rather than prompt quantity alone.</p>
+<h2>Main Takeaway From The Embedding Version</h2>
+<p>The embedding version strengthens one finding from the original analysis: the number of prompt iterations is not enough to explain learning gains. In S1, a high-iteration subgroup still showed low or negative growth. In S3, students showed the strongest growth with only about 3 prompts on average.</p>
+<p>The more useful interpretation is that learning gains may depend on the substance of the interaction: whether students use prompts to reason about energy, dimensions, values, heat, insulation, or design constraints, rather than simply adding visible design features.</p>
+<h2>Possible Visualizations</h2>
+<ul>
+<li>Embedding projection plot: reduce the dense prompt vectors to 2D with PCA, UMAP, or t-SNE, then color points by embedding cluster. This shows whether the prompt clusters are visually separated in semantic space.</li>
+<li>Pre/post score trajectory scatterplot: plot pre score vs. post score and color points by the embedding-based two-stage cluster. This connects semantic prompt grouping back to learning outcomes.</li>
+<li>Prompt-count vs. grade-change scatterplot: plot prompt count against grade change, color-coded by cluster. This highlights the contrast between high-iteration low-growth groups and lower-iteration strong-growth groups.</li>
+<li>Cluster centroid radar chart: show each cluster&#x27;s average prompt count, average prompt length, total iterations, solar keyword rate, HVAC/heat keyword rate, efficiency keyword rate, and window/door keyword rate.</li>
+<li>Cluster silhouette bar chart: show the Stage 2 silhouette score for S1, S2, and S3. This communicates where the embedding method produced stronger or weaker separation.</li>
+<li>Top semantic terms per cluster: show the top TF-IDF terms or bigrams associated with each embedding cluster in a faceted horizontal bar chart.</li>
+<li>Comparison matrix with TF-IDF clusters: create a cross-tab heatmap comparing student assignments from the TF-IDF method and the embedding method to show where the two methods agree or diverge.</li>
+</ul>
+<h2>Generated Visualizations</h2>
+<figure><img src="../two_stage_clustering_embedding/visualizations/embedding_prompt_projection.png" alt="Embedding Method: 2D Prompt-Space Projection"><figcaption>Embedding Method: 2D Prompt-Space Projection</figcaption></figure>
+<figure><img src="../two_stage_clustering_embedding/visualizations/embedding_pre_post_scatter.png" alt="Embedding Method: Pre vs. Post Scores"><figcaption>Embedding Method: Pre vs. Post Scores</figcaption></figure>
+<figure><img src="../two_stage_clustering_embedding/visualizations/embedding_prompt_count_vs_grade_change.png" alt="Embedding Method: Prompt Count vs. Grade Change"><figcaption>Embedding Method: Prompt Count vs. Grade Change</figcaption></figure>
+<figure><img src="../two_stage_clustering_embedding/visualizations/embedding_cluster_profile.png" alt="Embedding Method: Cluster Score and Prompt Profile"><figcaption>Embedding Method: Cluster Score and Prompt Profile</figcaption></figure>
+  </main>
+</body>
+</html>
