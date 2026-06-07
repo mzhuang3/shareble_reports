@@ -1,0 +1,7 @@
+two_stage_cluster,stage1_score_cluster,n_students,avg_pre,avg_post,avg_grade_change,avg_total_iterations,avg_prompt_count,top_prompt_terms,example_students
+S1_P1,S1,16,3.81,3.5,-0.31,4.88,4.88,add; solar; generate; style; colonial; panels; make; roof,Giovany Flores Pacheco; Isaiah Farmer ; Victor Villalobos Flores; ElleMari Harrell; Lyla Pollard
+S1_P2,S1,3,4.33,5.0,0.67,6.67,6.67,make; white; blue; small; colonial; style; roof; solar,Carlos Principe; Marco Gonzalez; Ivan Cabrera-Jimenez
+S2_P1,S2,2,9.0,9.0,0.0,6.0,6.0,insulation; solar; windows; walls; roof; thermal; curtains; resisting,Kinley Stevens; Kyndall Ratliff
+S2_P2,S2,16,8.81,10.25,1.44,7.94,7.94,add; solar; style; panels; roof; generate; colonial; heat,Jose Perez Campos; Leslie Colunga Bronfield; McKenzie Anderson; Hanna Beall; Maria Aguilar Ramirez
+S3_P1,S3,9,4.22,9.89,5.67,2.11,2.11,generate; colonial; style; solar; panels; windows; add; tree,Jayden LaPietra; Miroslava Komleva; John Hernandez ; Alexa Arenas Perez; Tommie Zimmerman
+S3_P2,S3,2,3.5,11.5,8.0,7.0,7.0,add; value; m2c; solar; width; color; generate; roof,Lihan Juarez Rangel; Esther Adebusuyi

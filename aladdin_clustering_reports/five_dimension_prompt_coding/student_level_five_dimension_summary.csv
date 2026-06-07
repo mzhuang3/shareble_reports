@@ -1,0 +1,71 @@
+project_name_source,project_class_source,matched_assessment,assessment_name,assessment_class,pre_total_score,post_total_score,grade_change,pre_post_both,prompt_count,avg_psi_0_10,max_psi_0_10,avg_conceptual_focus_0_3,avg_ai_reasoning_uptake_0_2,dominant_prompt_function,prompt_function_counts,dominant_conceptual_focus,conceptual_focus_counts,energy_change_counts
+Abisai Lopez Carrillo,Mr C,Yes,Abisai lopez,Mr C's class roster,5.0,,,No,7,3.57,5,1.57,1.29,generate,generate:6; revise:1,renewable_energy,renewable_energy:5; none:2,maintained:5; improved:1
+Carlos Principe,Mr C,Yes,Carlos Principe / Carlos,Mr C's class roster,7.0,6.0,-1.0,Yes,5,2.6,6,0.8,0.4,unclear,unclear:2; generate:2; aesthetic:1,none,none:3; orientation_solar:1; thermal_energy:1,improved:2; maintained:1; worsened:1
+Daniela Perez Barron,Mr C,Yes,Daniela Perez,Mr C's class roster,7.0,,,No,9,4.56,6,1.89,1.11,aesthetic,aesthetic:6; unclear:2; generate:1,envelope_openings,envelope_openings:4; renewable_energy:3; none:2,maintained:6; worsened:1; improved:1
+Giovany Flores Pacheco,Mr C,Yes,giovany florespacheco,Mr C's class roster,4.0,3.0,-1.0,Yes,3,4.33,5,2.33,0.67,revise,revise:2; generate:1,orientation_solar,orientation_solar:3,maintained:2
+Isaiah Farmer ,Mr C,Yes,Isaiah Farmer,Mr C's class roster,6.0,7.0,1.0,Yes,3,3.33,4,2.0,0.33,generate,generate:3,renewable_energy,renewable_energy:2; none:1,maintained:1; worsened:1
+Jose Perez Campos,Mr C,Yes,Jose Perez Campos,Mr C's class roster,10.0,11.0,1.0,Yes,6,4.33,7,1.83,0.17,revise,revise:4; generate:1; unclear:1,orientation_solar,orientation_solar:2; general_sustainability:1; envelope_openings:1; thermal_energy:1; none:1,maintained:4; improved:1
+Leslie Colunga Bronfield,Mr C,Yes,Leslie Colunga Bronfield,Mr C's class roster,9.0,9.0,0.0,Yes,3,5.33,7,3.0,1.0,revise,revise:1; evaluate:1; conceptual_inquiry:1,thermal_energy,thermal_energy:2; renewable_energy:1,maintained:2
+McKenzie Anderson,Mr C,Yes,McKenzie Anderson,Not found in roster,7.0,8.0,1.0,Yes,5,4.0,5,2.0,1.0,generate,generate:4; revise:1,orientation_solar,orientation_solar:2; renewable_energy:2; none:1,improved:3; worsened:1
+Mia Martinez Alvarez,Mr C,Yes,Mia,Mr C's class roster,10.0,,,No,9,5.22,6,2.11,1.0,unclear,unclear:5; revise:3; generate:1,envelope_openings,envelope_openings:6; renewable_energy:2; orientation_solar:1,maintained:6; worsened:1; improved:1
+Victor Villalobos Flores,Mr C,Yes,victor villalobos,Mr C's class roster,5.0,2.0,-3.0,Yes,6,4.33,5,2.5,1.5,generate,generate:6,renewable_energy,renewable_energy:5; none:1,maintained:5
+Hanna Beall,Mr R block4,Yes,Hanna Beall,Mr R 4th block roster,9.0,12.0,3.0,Yes,12,4.5,5,2.5,1.75,conceptual_inquiry,conceptual_inquiry:10; generate:2,thermal_energy,thermal_energy:10; none:2,maintained:7; improved:4
+Jayden LaPietra,Mr R block4,Yes,Jayden Lapietra,Mr R 4th block roster,5.0,8.0,3.0,Yes,1,7.0,7,2.0,0.0,generate,generate:1,renewable_energy,renewable_energy:1,
+Kylie Emery,Mr R block4,Yes,Kylie Emery,Mr R 4th block roster,,11.0,,No,14,5.07,7,2.5,1.64,conceptual_inquiry,conceptual_inquiry:12; generate:2,thermal_energy,thermal_energy:12; none:2,maintained:12; improved:1
+Maria Aguilar Ramirez,Mr R block4,Yes,Maria Aguilar,Mr R 4th block roster,10.0,10.0,0.0,Yes,2,2.0,3,0.0,0.0,revise,revise:1; generate:1,none,none:2,
+Miroslava Komleva,Mr R block4,Yes,Miroslava Komleva,Mr R 4th block roster,3.0,8.0,5.0,Yes,3,5.33,6,2.67,0.67,generate,generate:1; revise:1; conceptual_inquiry:1,envelope_openings,envelope_openings:1; orientation_solar:1; thermal_energy:1,maintained:2
+Perry Demoss,Mr R block4,Yes,Perry DeMoss / Perry,Mr R 4th block roster,9.0,12.0,3.0,Yes,7,6.57,8,2.57,1.43,generate,generate:6; revise:1,renewable_energy,renewable_energy:4; thermal_energy:2; none:1,maintained:6
+Peyton Booe ,Mr R block4,Yes,Peyton Booe,Mr R 4th block roster,,6.0,,No,4,2.0,3,0.0,0.25,generate,generate:4,none,none:4,maintained:2; improved:1
+Thomas Millage,Mr R block4,Yes,Thomi Millage,Mr R 4th block roster,5.0,,,No,1,1.0,1,0.0,0.0,generate,generate:1,none,none:1,
+Autumn Parnell ,Mr R block2,No,,,,,,,14,5.07,8,2.0,1.36,generate,generate:5; optimize:4; revise:3; conceptual_inquiry:2,renewable_energy,renewable_energy:5; none:4; thermal_energy:4; orientation_solar:1,maintained:9; worsened:2; improved:2
+Breydin Ross,Mr R block2,Yes,Breydin Ross,Mr R 2nd block roster,12.0,,,No,4,4.0,6,1.75,0.5,generate,generate:4,renewable_energy,renewable_energy:2; none:1; general_sustainability:1,maintained:1
+Deysi Mazariegos Marroquin,Mr R block2,Yes,deysi mazariegos,Mr R 2nd block roster,10.0,,,No,3,3.67,5,2.0,1.0,generate,generate:1; revise:1; conceptual_inquiry:1,none,none:1; renewable_energy:1; thermal_energy:1,maintained:1; worsened:1
+ElleMari Harrell,Mr R block2,Yes,ElleMari,Mr R 2nd block roster,2.0,4.0,2.0,Yes,4,2.75,3,0.0,1.25,revise,revise:3; generate:1,none,none:4,maintained:3
+Jackson Liles,Mr R block2,Yes,jackson liles,Mr R 2nd block roster,11.0,,,No,15,5.87,8,2.8,1.53,generate,generate:11; revise:3; conceptual_inquiry:1,renewable_energy,renewable_energy:12; thermal_energy:2; none:1,maintained:14
+John Hernandez ,Mr R block2,Yes,John Hernandez,Mr R 2nd block roster,6.0,12.0,6.0,Yes,3,5.0,7,2.0,1.0,generate,generate:1; revise:1; conceptual_inquiry:1,none,none:1; renewable_energy:1; thermal_energy:1,maintained:2
+Kinley Stevens,Mr R block2,Yes,Kinley Stevens / Kinley stevens,Mr R 2nd block roster,9.0,9.0,0.0,Yes,6,7.17,8,3.0,1.67,conceptual_inquiry,conceptual_inquiry:6,thermal_energy,thermal_energy:6,improved:4; worsened:1
+Kyndall Ratliff,Mr R block2,Yes,Kyndall / kyndall,Mr R 2nd block roster,9.0,9.0,0.0,Yes,6,5.5,7,2.5,1.33,conceptual_inquiry,conceptual_inquiry:4; generate:1; aesthetic:1,thermal_energy,thermal_energy:4; none:1; renewable_energy:1,improved:4; worsened:1
+Lihan Juarez Rangel,Mr R block2,Yes,Lihan Juarez / Lihan Jaurez,Mr R 2nd block roster,5.0,12.0,7.0,Yes,7,6.86,9,2.57,1.29,optimize,optimize:4; revise:2; generate:1,thermal_energy,thermal_energy:4; renewable_energy:2; none:1,maintained:4; improved:2
+Logan Gonzalez,Mr R block2,Yes,Logan Gonzalez,Mr R 2nd block roster,11.0,12.0,1.0,Yes,11,4.73,5,2.73,1.45,generate,generate:6; conceptual_inquiry:5,renewable_energy,renewable_energy:5; thermal_energy:5; none:1,maintained:10
+Lyla Pollard,Mr R block2,Yes,lyla pollard,Mr R 2nd block roster,4.0,6.0,2.0,Yes,9,4.67,6,2.67,1.44,conceptual_inquiry,conceptual_inquiry:8; generate:1,thermal_energy,thermal_energy:8; none:1,improved:5; worsened:3
+Nathalia SanMiguel,Mr R block2,Yes,nathalia,Mr R 2nd block roster,7.0,,,No,7,4.14,5,2.14,1.14,generate,generate:3; conceptual_inquiry:3; revise:1,orientation_solar,orientation_solar:4; thermal_energy:3,maintained:5; improved:1
+Peyton Jones,Mr R block2,Yes,Peyton jones,Mr R 2nd block roster,3.0,,,No,8,3.5,5,1.25,0.62,revise,revise:3; conceptual_inquiry:3; generate:2,thermal_energy,thermal_energy:4; none:2; renewable_energy:2,maintained:7
+Trevor Schwartz,Mr R block2,Yes,Trevor Schwartz,Mr R 2nd block roster,6.0,9.0,3.0,Yes,18,5.0,5,3.0,1.83,conceptual_inquiry,conceptual_inquiry:17; optimize:1,thermal_energy,thermal_energy:18,maintained:15; worsened:1; improved:1
+Tristin Groves,Mr R block2,Yes,Tristin Groves,Mr R 2nd block roster,8.0,,,No,6,3.67,5,1.5,0.83,generate,generate:3; revise:3,none,none:3; renewable_energy:3,maintained:4; improved:1
+Ty_Vey Johnson,Mr R block2,Yes,Tyvey Johnsonn / Tyvey Johnson,Mr R 2nd block roster,4.0,4.0,0.0,Yes,1,3.0,3,1.0,0.0,generate,generate:1,orientation_solar,orientation_solar:1,
+Vanacy Terrell,Mr R block2,Yes,Vanacy Terrell,Mr R 2nd block roster,7.0,10.0,3.0,Yes,19,9.0,9,3.0,1.84,optimize,optimize:19,thermal_energy,thermal_energy:19,maintained:13; improved:3; worsened:2
+Alexa Arenas Perez,Mr R block1,Yes,Alexa Arenas Perez,Ms T roster,6.0,10.0,4.0,Yes,4,3.5,5,1.5,1.25,generate,generate:2; revise:1; optimize:1,none,none:2; renewable_energy:2,maintained:1
+Amiera Johnson,Mr R block1,No,,,,,,,1,1.0,1,0.0,0.0,generate,generate:1,none,none:1,
+Angelica Garcia Hernandez,Mr R block1,Yes,Angelica Garcia Hernandez,Ms T roster,4.0,6.0,2.0,Yes,1,2.0,2,0.0,0.0,generate,generate:1,none,none:1,
+Cassidy Weal,Mr R block1,Yes,Cassidy Weal,Ms T roster,7.0,,,No,9,4.22,5,2.11,1.22,generate,generate:9,renewable_energy,renewable_energy:5; none:2; envelope_openings:2,maintained:6; improved:2
+Christopher Santizo Morales,Mr R block1,Yes,christopher santizo,Ms T roster,6.0,4.0,-2.0,Yes,18,5.83,7,2.28,1.78,conceptual_inquiry,conceptual_inquiry:11; generate:7,thermal_energy,thermal_energy:11; envelope_openings:5; none:2,maintained:17
+Conner Murray,Mr R block1,Yes,conner mnurray / conner murray,Ms T roster,0.0,0.0,0.0,Yes,12,6.33,7,2.67,1.58,revise,revise:11; generate:1,renewable_energy,renewable_energy:10; none:1; envelope_openings:1,maintained:11
+Enil Martinez-Gonzalez,Mr R block1,Yes,Enil Martinez,Ms T roster,5.0,4.0,-1.0,Yes,9,4.78,7,2.67,0.78,revise,revise:6; conceptual_inquiry:2; generate:1,renewable_energy,renewable_energy:5; thermal_energy:2; none:1; orientation_solar:1,maintained:8
+Esther Adebusuyi,Mr R block1,Yes,Esther Adebusuyi,Ms T roster,2.0,11.0,9.0,Yes,7,4.57,7,2.14,1.14,generate,generate:4; conceptual_inquiry:3,thermal_energy,thermal_energy:5; none:2,improved:3; worsened:2; maintained:1
+Isabella Martinez,Mr R block1,Yes,isabella,Ms T roster,10.0,,,No,3,4.67,6,1.67,0.67,generate,generate:3,thermal_energy,thermal_energy:2; none:1,maintained:2
+John Calas Diaz,Mr R block1,Yes,John Calas Diaz,Ms T roster,11.0,12.0,1.0,Yes,7,7.86,8,3.0,1.29,conceptual_inquiry,conceptual_inquiry:4; optimize:3,orientation_solar,orientation_solar:3; envelope_openings:2; thermal_energy:2,maintained:4; worsened:1; improved:1
+Karsyn Clifton,Mr R block1,Yes,Karsyn Clifton / Karsyn C,Ms T roster,7.0,10.0,3.0,Yes,10,3.9,7,1.6,1.5,generate,generate:10,renewable_energy,renewable_energy:4; envelope_openings:4; none:2,maintained:5; improved:2; worsened:2
+Tommie Zimmerman,Mr R block1,Yes,Tommie Z,Ms T roster,4.0,8.0,4.0,Yes,1,1.0,1,0.0,0.0,generate,generate:1,none,none:1,
+Cayden Price,Ms T,Yes,Cayden Price,Mr R 1st block roster,8.0,,,No,1,2.0,2,0.0,0.0,generate,generate:1,none,none:1,
+Daniella Limas-Ayala,Ms T,Yes,Daniella / Daniella Limas,Mr R 1st block roster,11.0,11.0,0.0,Yes,1,2.0,2,0.0,0.0,generate,generate:1,none,none:1,
+"Eduardo Flores Martinez ",Ms T,Yes,Eduardo / Edaurdo,Mr R 1st block roster,5.0,5.0,0.0,Yes,2,2.5,3,1.5,0.0,generate,generate:2,none,none:1; renewable_energy:1,maintained:1
+Gustavo Saucedo-Ramos,Ms T,Yes,gustavo saucedo ramos,Mr R 1st block roster,1.0,7.0,6.0,Yes,1,1.0,1,0.0,0.0,generate,generate:1,none,none:1,
+"James Wilkins  ",Ms T,Yes,James W.,Mr R 1st block roster,4.0,,,No,1,2.0,2,0.0,0.0,generate,generate:1,none,none:1,
+"Jhamil Cortez",Ms T,Yes,Jhamil Cortez,Mr R 1st block roster,5.0,12.0,7.0,Yes,1,5.0,5,0.0,0.0,optimize,optimize:1,none,none:1,
+"Kailyn cochran",Ms T,Yes,kailyn cochran,Mr R 1st block roster,2.0,3.0,1.0,Yes,1,1.0,1,0.0,0.0,generate,generate:1,none,none:1,
+Karmen Than Chan,Ms T,Yes,Karmen,Mr R 1st block roster,6.0,,,No,1,1.0,1,0.0,0.0,generate,generate:1,none,none:1,
+Lexie,Ms T,Yes,Lex Parrish / lexie,Mr R 1st block roster,0.0,0.0,0.0,Yes,2,2.5,4,1.5,0.0,generate,generate:2,none,none:1; renewable_energy:1,maintained:1
+Marco Gonzalez,Ms T,Yes,Marco Gonzalez / Marco gonzalez,Mr R 1st block roster,3.0,6.0,3.0,Yes,11,2.73,4,0.0,0.55,generate,generate:9; aesthetic:2,none,none:11,maintained:10
+Mark Islas-Ramos,Ms T,Yes,Mark Ramos,Mr R 1st block roster,2.0,12.0,10.0,Yes,1,2.0,2,0.0,0.0,generate,generate:1,none,none:1,
+Nick Darcia-Castillo,Ms T,Yes,Nick,Mr R 1st block roster,,6.0,,No,7,1.14,2,0.0,0.0,generate,generate:6; aesthetic:1,none,none:7,maintained:6
+Vanessa Beltran Bonilla,Ms T,Yes,Vanessa Beltran,Mr R 1st block roster,5.0,3.0,-2.0,Yes,1,2.0,2,0.0,0.0,generate,generate:1,none,none:1,
+William Thomas Goodman V,Ms T,Yes,William Goodman,Mr R 1st block roster,6.0,12.0,6.0,Yes,4,5.25,7,2.25,0.75,optimize,optimize:2; generate:1; revise:1,renewable_energy,renewable_energy:3; none:1,improved:3
+Yaricsa Cruz Gonzalez,Ms T,Yes,Yaricsa,Mr R 1st block roster,8.0,12.0,4.0,Yes,5,2.4,4,0.8,0.2,generate,generate:5,none,none:2; renewable_energy:2; envelope_openings:1,maintained:3; worsened:1
+Meredith Brown,Mr C,Yes,Meredith Brown,Mr C's class roster,4.0,,,No,2,4.0,4,2.0,1.0,generate,generate:2,envelope_openings,envelope_openings:2,worsened:1
+Jordan Bass,Mr R block1,Yes,Jordan Bass,Ms T roster,9.0,9.0,0.0,Yes,5,4.2,5,1.8,0.6,revise,revise:4; generate:1,thermal_energy,thermal_energy:3; none:1; renewable_energy:1,maintained:4
+Ivan Cabrera-Jimenez,Mr R block4,Yes,ivan,Mr R 4th block roster,3.0,3.0,0.0,Yes,4,3.0,5,1.0,0.75,generate,generate:3; unclear:1,none,none:2; envelope_openings:2,maintained:3
+Alec Raymond,Ms T,Yes,alec raymond,Mr R 1st block roster,12.0,,,No,3,3.67,5,0.33,0.0,generate,generate:3,none,none:2; orientation_solar:1,improved:1; maintained:1
+Kadence Smith,Ms T,Yes,Kadence Smith,Mr R 1st block roster,5.0,5.0,0.0,Yes,5,3.8,7,1.8,1.0,conceptual_inquiry,conceptual_inquiry:3; generate:2,thermal_energy,thermal_energy:3; none:2,maintained:3; worsened:1
+Logan Reed,Ms T,Yes,logan reed,Mr R 1st block roster,4.0,0.0,-4.0,Yes,1,2.0,2,0.0,0.0,generate,generate:1,none,none:1,
+Tatiyana Morgan,Ms T,Yes,Tatiyana Morgan,Mr R 1st block roster,7.0,9.0,2.0,Yes,8,6.25,7,2.75,1.75,conceptual_inquiry,conceptual_inquiry:6; generate:2,thermal_energy,thermal_energy:6; orientation_solar:2,improved:6; worsened:1
+Jose,Mr R block2,Yes,Jose Ramirez / jose ramirez,Mr R 2nd block roster,10.0,8.0,-2.0,Yes,8,7.0,9,2.62,1.38,revise,revise:6; generate:1; optimize:1,thermal_energy,thermal_energy:3; renewable_energy:3; none:1; orientation_solar:1,maintained:6; improved:1
